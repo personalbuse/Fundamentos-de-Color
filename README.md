@@ -49,8 +49,11 @@ pip freeze
 4. Observar los gráficos de validación y resultados de K-Means.
 ### 5. La ultima celda del cuaderno Jupyter genera el `dataset` , correrla solo una vez, este crea la carpeta automaticamente
 *En caso de que genere error la ultima celda informar a los expositores porque caimos la API por multiples peticiones*
+
 *Probar manualmente la pagina*
 _https://minimalistic-wallpaper.demolab.com/?random_
+
+*De lo contrario, renombre la carpeta "dataset_jpg_example" a "dataset_jpg"*
 
 ---
 
