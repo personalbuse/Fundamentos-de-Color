@@ -1,6 +1,9 @@
 # Proyecto: Análisis y Segmentación de Colores con K-Means
 
+![Rueda de colores](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Color_circle_%28RGB%29.svg/250px-Color_circle_%28RGB%29.svg.png)
+
 Este proyecto contiene dos componentes principales que demuestran fundamentos de color y procesamiento de imágenes mediante K-Means, tanto en Python como en C.
+
 
 ---
 
@@ -45,7 +48,9 @@ pip freeze
 3. Ejecutar las celdas paso a paso para ver la conversión de modelos y la segmentación de colores.
 4. Observar los gráficos de validación y resultados de K-Means.
 ### 5. La ultima celda del cuaderno Jupyter genera el `dataset` , correrla solo una vez, este crea la carpeta automaticamente
-# En caso de que genere error la ultima celda informar a los expositores porque caimos la API por multiples peticiones
+*En caso de que genere error la ultima celda informar a los expositores porque caimos la API por multiples peticiones*
+*Probar manualmente la pagina*
+_https://minimalistic-wallpaper.demolab.com/?random_
 
 ---
 
