@@ -40,14 +40,16 @@ pip freeze
 
 ### Uso
 
-1. Abrir el cuaderno `color.ipynb` en Jupyter Notebook o JupyterLab.
+1. Abrir el cuaderno `color.ipynb` en Jupyter Notebook,JupyterLab, Code o Cursor. (Compilador de preferencia)
 2. Seleccionar el kernel adecuado de nuestro VENV
 3. Ejecutar las celdas paso a paso para ver la conversión de modelos y la segmentación de colores.
 4. Observar los gráficos de validación y resultados de K-Means.
+### 5. La ultima celda del cuaderno Jupyter genera el `dataset` , correrla solo una vez, este crea la carpeta automaticamente
+# En caso de que genere error la ultima celda informar a los expositores porque caimos la API por multiples peticiones
 
 ---
 
-## 2. Programa en C: `k_means_parrallel.c`
+## 2. Programa en C: `k_means_parrallel_(sistema operativo).c`
 
 Este programa aplica **K-Means** para segmentar el color de imágenes en un dataset y comparar **tiempo de ejecución secuencial vs paralelo** usando OpenMP.
 
@@ -80,7 +82,7 @@ Este programa aplica **K-Means** para segmentar el color de imágenes en un data
 ### Compilación
 
 ```bash
-gcc -O2 -fopenmp k_means_parrallel.c -o kmeans -lm
+gcc -O2 -fopenmp k_means_parrallel_(OS).c -o kmeans -lm
 ```
 
 ### Uso
@@ -90,16 +92,17 @@ se guardan en data para procesar despues
 2. Ejecutar:
 
 ```bash
-./kmeans
+./kmeans (en Linux)
+kmeans.exe (en Windows)
 ```
 
 3. La salida mostrará algo como:
 ## Puede demorarse debido a no reescalado y cantidad de pixeles y 50 iteraciones de agrupamiento
 
 ```
-Renderizando 20 imágenes
-Segmentando 20 imágenes para K-Means
-Pixeles utilizados en dataset: 6342560
+Renderizando x imágenes
+Segmentando x imágenes para K-Means
+Pixeles utilizados en dataset: xxxxxx
 
 Tiempo en secuencial: 12.3456 s
 Tiempo en paralelo  : 4.1234 s
