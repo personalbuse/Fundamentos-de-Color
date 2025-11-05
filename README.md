@@ -4,7 +4,7 @@ Este proyecto contiene dos componentes principales que demuestran fundamentos de
 
 ---
 
-## 1. Cuaderno Jupyter: `color_analysis.ipynb`
+## 1. Cuaderno Jupyter: `color.ipynb`
 
 Este cuaderno interactivo demuestra:
 
@@ -32,13 +32,13 @@ pip install numpy matplotlib scikit-learn opencv-python pillow ipython requests
 
 ### Uso
 
-1. Abrir el cuaderno `color_analysis.ipynb` en Jupyter Notebook o JupyterLab.
+1. Abrir el cuaderno `color.ipynb` en Jupyter Notebook o JupyterLab.
 2. Ejecutar las celdas paso a paso para ver la conversión de modelos y la segmentación de colores.
 3. Observar los gráficos de validación y resultados de K-Means.
 
 ---
 
-## 2. Programa en C: `kmeans_dataset.c`
+## 2. Programa en C: `k_means_parrallel.c`
 
 Este programa aplica **K-Means** para segmentar el color de imágenes en un dataset y comparar **tiempo de ejecución secuencial vs paralelo** usando OpenMP.
 
@@ -71,7 +71,7 @@ Este programa aplica **K-Means** para segmentar el color de imágenes en un data
 ### Compilación
 
 ```bash
-gcc -O2 -fopenmp k_means_parrallel.c -o kmeans_dataset -lm
+gcc -O2 -fopenmp k_means_parrallel.c -o kmeans -lm
 ```
 
 ### Uso
