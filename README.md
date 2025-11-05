@@ -22,19 +22,28 @@ Este cuaderno interactivo demuestra:
 4. Validación de los resultados utilizando imágenes aleatorias
 
 ### Requisitos
-
-- Python 3.10 o superior
-- Bibliotecas:
+## Crear Virtual Enviroment (VENV) dentro de esta carpeta y activarlo
+```bash
+python -m venv venv
+```
+### Una vez activado el enviroment usar el comando
 
 ```bash
 pip install numpy matplotlib scikit-learn opencv-python pillow ipython requests
 ```
 
+### Para verificar que todo se instalo correctamente utilizar
+```bash
+pip freeze
+```
+
+
 ### Uso
 
 1. Abrir el cuaderno `color.ipynb` en Jupyter Notebook o JupyterLab.
-2. Ejecutar las celdas paso a paso para ver la conversión de modelos y la segmentación de colores.
-3. Observar los gráficos de validación y resultados de K-Means.
+2. Seleccionar el kernel adecuado de nuestro VENV
+3. Ejecutar las celdas paso a paso para ver la conversión de modelos y la segmentación de colores.
+4. Observar los gráficos de validación y resultados de K-Means.
 
 ---
 
