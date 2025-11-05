@@ -1,9 +1,9 @@
-# Proyecto: Análisis y Segmentación de Colores con K-Means
+# Fundamentos del color (RGB, CMY,YIQ, etc)
+### Aplicación y visualizacion practica en Cuaderno de Jupyter
+### Uso de Codigo en C para comparar tiempo de ejecución de algoritmos _'no supervisados'_
+### Uso de Aplicación en Graddle para probar y en directo la segmentación de colores
 
-![Rueda de colores](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Color_circle_%28RGB%29.svg/250px-Color_circle_%28RGB%29.svg.png)
-
-Este proyecto contiene dos componentes principales que demuestran fundamentos de color y procesamiento de imágenes mediante K-Means, tanto en Python como en C.
-
+![Rueda de colores](https://albertodugarte.com/wp-content/uploads/2025/03/teoria-del-color.jpg)
 
 ---
 
